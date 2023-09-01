@@ -1,6 +1,7 @@
 ```markdown
 # DeepShield: AI-Powered SQL Injection Guardian
 
+![DeepShield Logo](logo.png)
 
 Safeguarding Web Apps with Neural Network Vigilance
 
@@ -9,7 +10,6 @@ Safeguarding Web Apps with Neural Network Vigilance
 ## Overview
 
 DeepShield is an advanced web application security solution that utilizes the power of artificial intelligence and neural networks to protect your web applications against SQL injection attacks. By deploying this intelligent guardian, you can enhance the security of your web applications and ensure the safety of your user data.
-
 
 ## Features
 
@@ -51,6 +51,10 @@ DeepShield is an advanced web application security solution that utilizes the po
 
 7. Monitor the DeepShield dashboard and logs to assess its performance.
 
+## Real-Time Monitoring Dashboard
+
+DeepShield now features a real-time monitoring dashboard with interactive charts. This dashboard allows you to visualize and track various metrics, including blocked IP addresses and total prevented attacks. Access the dashboard by visiting `http://localhost:5000/dashboard` in your browser after running the app.
+
 ## Contribute
 
 Contributions to DeepShield are welcome! Whether you're a developer, security enthusiast, or machine learning expert, your expertise can help make web applications more secure.
@@ -67,7 +71,7 @@ This project is licensed under the MIT License. Feel free to use and modify it a
 
 ## Contact
 
-For inquiries and collaborations, please reach out to me Akbar Naufal at [anauwal@yahoo.co.id](mailto:anauwal@yahoo.co.id).
+For inquiries and collaborations, please reach out to me, Akbar Naufal, at [anauwal@yahoo.co.id](mailto:anauwal@yahoo.co.id).
 
 ---
 ```

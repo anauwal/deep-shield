@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DeepShield Monitoring Dashboard</title>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+    <h1>DeepShield Monitoring Dashboard</h1>
+    <h2>Blocked IP Addresses:</h2>
+    <ul id="blocked-ips-list"></ul>
+    <h2 id="total-prevented-attacks">Total Prevented Attacks: 0</h2>
+
+    <script type="text/javascript">
+        var socket = io.connect("http://" + document.domain + ":" + location.port + "/dashboard");
+
+        socket.on("connect", function() {
+            console.log("Connected to server");
+        });
+
+        socket.on("update_dashboard", function(data) {
+            var blockedIPsList = document.getElementById("blocked-ips-list");
+            blockedIPsList.innerHTML = "";
+            for (var ip in data.blocked_ips) {
+                var ipData = data.blocked_ips[ip];
+                var listItem = document.createElement("li");
+                listItem.textContent = ip + " - Blocked Count: " + ipData.count + " - Last Blocked: " + ipData.timestamp;
+                blockedIPsList.appendChild(listItem);
+            }
+
+            var totalPreventedAttacks = document.getElementById("total-prevented-attacks");
+            totalPreventedAttacks.textContent = "Total Prevented Attacks: " + data.total_prevented_attacks;
+        });
+    </script>
+</body>
+</html>
