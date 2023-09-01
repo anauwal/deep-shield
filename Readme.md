@@ -67,7 +67,7 @@ This project is licensed under the MIT License. Feel free to use and modify it a
 
 ## Contact
 
-For inquiries and collaborations, please reach out to Akbar Naufal at [anauwal@yahoo.co.id](mailto:anauwal@yahoo.co.id).
+For inquiries and collaborations, please reach out to me Akbar Naufal at [anauwal@yahoo.co.id](mailto:anauwal@yahoo.co.id).
 
 ---
 ```
