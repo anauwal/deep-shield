@@ -1,7 +1,7 @@
 ```markdown
 # DeepShield: AI-Powered SQL Injection Guardian
 
-![DeepShield Logo](https://raw.githubusercontent.com/anauwal/deep-shield/main/logo.png)
+<img width="261" alt="logo" src="https://github.com/anauwal/deep-shield/assets/79688039/b869f29b-0863-4d73-99dc-621ee0aa33ac">
 
 Safeguarding Web Apps with Neural Network Vigilance
 
