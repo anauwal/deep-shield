@@ -1,5 +1,5 @@
-<img width="261" alt="logo" src="https://github.com/anauwal/deep-shield/assets/79688039/b869f29b-0863-4d73-99dc-621ee0aa33ac">
-
+<center><img width="261" alt="logo" src="https://github.com/anauwal/deep-shield/assets/79688039/b869f29b-0863-4d73-99dc-621ee0aa33ac">
+</center>
 ```markdown
 # DeepShield: AI-Powered SQL Injection Guardian
 
